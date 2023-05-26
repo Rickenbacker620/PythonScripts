@@ -25,3 +25,6 @@ for root, dirs, files in os.walk("/mnt/c/Users/paras/Desktop/smallzips"):
 with open("result.txt", "w") as file:
     for link in links_all:
         file.write(link+"\n")
+
+for link in links_all:
+    print(link)

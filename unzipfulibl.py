@@ -26,4 +26,7 @@ with open("result.txt", "w") as file:
     for link in links_all:
         file.write(link+"\n")
 
-print(f"已完成{count}个")
+print(f"已完成{count}个\n")
+
+for link in links_all:
+    print(link)
